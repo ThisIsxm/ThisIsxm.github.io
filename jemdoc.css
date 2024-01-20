@@ -22,7 +22,7 @@ body {
 	padding-right: 8px;
 	font-size: 1.0em;
 	width: auto;
-	height: 100%;
+	height: 100vw;
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
@@ -95,7 +95,7 @@ div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
 	border-bottom: 3px double gray;
-	width: 100%;
+	width: 100vw;
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -127,7 +127,7 @@ h1, h2, h3 {
 	line-height: 1.0;
 	padding-top: 0.5em;
 	border-bottom: 1px solid #aaaaaa;
-	width: 100%;
+	width: 100vw;
 }
 
 h1 {
