@@ -21,7 +21,7 @@ body {
 	padding-right: 8px;
 	font-size: 1.0em;
 	width: auto;
-	height: 100000px;
+	height: 100%;
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
@@ -94,7 +94,7 @@ div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
 	border-bottom: 3px double gray;
-	width: 10000px;
+	width: 100%;
 }
 
 /* Reduce space if we begin the page with a title. */
