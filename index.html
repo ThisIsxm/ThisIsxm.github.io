@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>MingX</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Menu</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>夏明 </h1>
+</div>
+<p>China<br />
+E-mail: <a href="mailto:x1974255224@gmail.com">x1974255224@gmail.com</a></p>
+<h2>项目经历</h2>
+<p>
+  <span class="h2_1">
+    <b>
+      <span style="float: left;">电磁导引的自主循迹智能车设计</span>
+      <span style="float: right;">2021.12 - 2022.08</span>
+    </b><br />
+  </span>
+  &nbsp &nbsp &nbsp 针对智能车比赛赛道的随机场景和比赛规则，基于STC32单片机设计了一辆能够实时利用赛道空间中的磁场信息判断自身位置，并根据陀螺仪、测速编码器等传感器实现控制闭环的竞速小车<br />
+  &nbsp • <b>项目负责人：</b>负责小车的电磁信号处理及控制算法的编写，项目代码的架构和部分PCB的设计<br />
+  &nbsp • 提出前后双排磁场传感器排布设计，能够更加精准的确定车身实际位置，并提出了动态加权实现动态前瞻的方法，实现了更为精准的循迹<br />
+  &nbsp • 实现了<b>阿克曼差速</b>，部署了简化后的<b>Pure Pursuit</b>方法，取得了较好的控制效果<br />
+  &nbsp • <b>项目成果：</b>第十七届全国大学生智能汽车竞赛四轮电磁组<b>全国一等奖（第三名）</b><br />
+  <br />
+  &nbsp &nbsp &nbsp &nbsp <img src="video/17th-1.gif" alt="My GIF"><br />
+</p>
+<hr>
+<p>
+  <span class="h2_1">
+  <b>
+    <span style="float: left;">自平衡自行车设计</span>
+    <span style="float: right;">2022.09 - 2022.12</span>
+  </b><br />
+  </span>
+  &nbsp &nbsp &nbsp 针对自行车实现自平衡的问题，提出了以车载深度相机提供方向引导、利用无刷电机驱动动量轮控制车体平衡、直流电机驱动自行车行进的系统设计方案<br />
+  &nbsp • <b>项目队员：</b>负责平衡控制系统的设计，通过自行车搭载的动量轮，利用角动量守恒原理实现自行车的自平衡<br />
+  &nbsp • 使用STM32单片机作为平衡系统的主控，利用陀螺仪作为姿态传感器经<b>卡尔曼滤波</b>获得自行车的倾斜角度，利用FOC算法控制无刷电机驱动动量轮维持自行车的平衡，调试整定<b>三级串联PID控制器</b>参数<br />
+  &nbsp • <b>项目成果：</b>七届智能车室外专项赛无人驾驶自行车组<b>全国二等奖</b><br />
+  <br />
+  &nbsp &nbsp &nbsp &nbsp <img src="video/17th-2.gif" alt="My GIF"><br /> 
+</p>
+<hr>
+<p>
+  <span class="h2_1">
+  <b>
+    <span style="float: left;">混沌系统调试平台设计</span>
+    <span style="float: right;">2023.02 - 2023.06</span>
+  </b><br />
+  </span>
+  &nbsp &nbsp &nbsp 基于国产CH32单片机，为李春彪老师课题组搭建了一个可实现任意类型的混沌系统调试平台，利用DAC将系统输出转换为电压信号输出，用户可通过示波器查看混沌系统的相轨和波形<br />
+  &nbsp • <b> 独立完成：</b>负责平衡控制系统的设计，通过自行车搭载的动量轮，利用角动量守恒原理实现自行车的自平衡<br />
+  &nbsp • 使用欧拉算法将连续混沌系统离散化，并成功部署于设计的调试平台<br />
+  &nbsp • 构建了完整的人机交互系统，使用多级菜单，实现混沌系统的选择、参数的调整和混沌信号的输出等功能<br />
+  &nbsp • 软件模块化，接口简单，便于添加新的混沌系统至调试平台<br />
+  &nbsp • <b>项目成果：</b>授权软件著作权一篇（一作）<br />
+  <br />
+  &nbsp &nbsp &nbsp &nbsp <img src="video/SignalGenerator.gif" alt="My GIF"><br /> 
+</p>
+
+</td>
+</tr>
+</table>
+</body>
+</html>
